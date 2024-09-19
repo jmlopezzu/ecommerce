@@ -1,0 +1,248 @@
+{
+  "laboratorios": [
+    {
+      "id": 4,
+      "title": "Reactivo de Química Clínica",
+      "description": "Reactivo de alta precisión para pruebas de química clínica. Utilizado en el análisis de líquidos corporales como sangre y orina.",
+      "category": "reactivos",
+      "price": 79.99,
+      "discountPercentage": 5.0,
+      "rating": 4.7,
+      "stock": 200,
+      "tags": [
+        "reactivo",
+        "química clínica"
+      ],
+      "brand": "ChemLabs",
+      "sku": "REACTQ100",
+      "weight": 0.3,
+      "dimensions": {
+        "width": 10.0,
+        "height": 15.0,
+        "depth": 5.0
+      },
+      "warrantyInformation": "Garantía de 1 año",
+      "shippingInformation": "Envío en 2 días",
+      "availabilityStatus": "En Stock",
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Resultados precisos en cada prueba.",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "Juan López",
+          "reviewerEmail": "juan.lopez@lab.dummyjson.com"
+        },
+        {
+          "rating": 4,
+          "comment": "Buen reactivo pero con un precio algo elevado.",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "Sofía Reyes",
+          "reviewerEmail": "sofia.reyes@lab.dummyjson.com"
+        }
+      ],
+      "returnPolicy": "Política de devolución de 30 días",
+      "minimumOrderQuantity": 5,
+      "meta": {
+        "createdAt": "2024-05-23T08:56:21.618Z",
+        "updatedAt": "2024-05-23T08:56:21.618Z",
+        "barcode": "1234567890987",
+        "qrCode": "/"
+      },
+      "images": [
+        "/descarga.jpg"
+      ],
+      "thumbnail": "/descarga.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Equipo de Electrofisiología",
+      "description": "Sistema completo para estudios electrofisiológicos con alta precisión. Incluye software especializado.",
+      "category": "equipamiento",
+      "price": 4999.99,
+      "discountPercentage": 7.0,
+      "rating": 4.9,
+      "stock": 5,
+      "tags": [
+        "equipamiento",
+        "electrofisiología"
+      ],
+      "brand": "NeuroTech",
+      "sku": "ELECPHYX300",
+      "weight": 18.0,
+      "dimensions": {
+        "width": 50.0,
+        "height": 60.0,
+        "depth": 45.0
+      },
+      "warrantyInformation": "Garantía de 3 años",
+      "shippingInformation": "Envío en 2 semanas",
+      "availabilityStatus": "Bajo Stock",
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Herramienta indispensable para el análisis neuronal.",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "Laura Ortiz",
+          "reviewerEmail": "laura.ortiz@lab.dummyjson.com"
+        }
+      ],
+      "returnPolicy": "Política de devolución de 90 días",
+      "minimumOrderQuantity": 1,
+      "meta": {
+        "createdAt": "2024-05-23T08:56:21.618Z",
+        "updatedAt": "2024-05-23T08:56:21.618Z",
+        "barcode": "9871234567890",
+        "qrCode": "/"
+      },
+      "images": [
+        "/df.jpg"
+      ],
+      "thumbnail": "/df.jpg"
+    },
+    {
+      "id": 6,
+      "title": "Tubo de Ensayo 10ml",
+      "description": "Tubo de ensayo de vidrio para uso en laboratorio, resistente a altas temperaturas y productos químicos.",
+      "category": "consumibles",
+      "price": 0.99,
+      "discountPercentage": 2.0,
+      "rating": 4.4,
+      "stock": 1000,
+      "tags": [
+        "consumibles",
+        "tubo ensayo"
+      ],
+      "brand": "GlassLab",
+      "sku": "TESTUBEX10",
+      "weight": 0.05,
+      "dimensions": {
+        "width": 1.5,
+        "height": 10.0,
+        "depth": 1.5
+      },
+      "warrantyInformation": "Sin garantía",
+      "shippingInformation": "Envío en 24 horas",
+      "availabilityStatus": "En Stock",
+      "reviews": [
+        {
+          "rating": 4,
+          "comment": "Buena calidad a bajo costo.",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "Pablo Escobar",
+          "reviewerEmail": "pablo.escobar@lab.dummyjson.com"
+        }
+      ],
+      "returnPolicy": "Sin devolución",
+      "minimumOrderQuantity": 100,
+      "meta": {
+        "createdAt": "2024-05-23T08:56:21.618Z",
+        "updatedAt": "2024-05-23T08:56:21.618Z",
+        "barcode": "0987654321234",
+        "qrCode": "/"
+      },
+      "images": [
+        "/g.png"
+      ],
+      "thumbnail": "/g.png"
+    },
+    {
+      "id": 7,
+      "title": "Pipeta Automática",
+      "description": "Pipeta automática ajustable para precisión en la dosificación de líquidos en análisis bioquímicos.",
+      "category": "equipamiento",
+      "price": 159.99,
+      "discountPercentage": 8.0,
+      "rating": 4.6,
+      "stock": 50,
+      "tags": [
+        "equipamiento",
+        "pipeta"
+      ],
+      "brand": "AccuraLab",
+      "sku": "PIPX500",
+      "weight": 0.8,
+      "dimensions": {
+        "width": 5.0,
+        "height": 25.0,
+        "depth": 4.0
+      },
+      "warrantyInformation": "Garantía de 2 años",
+      "shippingInformation": "Envío en 4 días",
+      "availabilityStatus": "En Stock",
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Excelente precisión y fácil manejo.",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "Luis Fernández",
+          "reviewerEmail": "luis.fernandez@lab.dummyjson.com"
+        },
+        {
+          "rating": 4,
+          "comment": "Muy útil, aunque el botón es algo rígido.",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "Paula Romero",
+          "reviewerEmail": "paula.romero@lab.dummyjson.com"
+        }
+      ],
+      "returnPolicy": "Política de devolución de 14 días",
+      "minimumOrderQuantity": 1,
+      "meta": {
+        "createdAt": "2024-05-23T08:56:21.618Z",
+        "updatedAt": "2024-05-23T08:56:21.618Z",
+        "barcode": "4567891230987",
+        "qrCode": "/"
+      },
+      "images": [
+        "/gg.jpg"
+      ],
+      "thumbnail": "/gg.jpg"
+    },
+    {
+      "id": 8,
+      "title": "Estufa de Cultivo",
+      "description": "Estufa de cultivo para el crecimiento controlado de microorganismos en condiciones óptimas de temperatura y humedad.",
+      "category": "equipamiento",
+      "price": 1200.00,
+      "discountPercentage": 10.0,
+      "rating": 4.8,
+      "stock": 8,
+      "tags": [
+        "equipamiento",
+        "cultivo"
+      ],
+      "brand": "BioCult",
+      "sku": "INCUBBIO300",
+      "weight": 25.0,
+      "dimensions": {
+        "width": 70.0,
+        "height": 80.0,
+        "depth": 60.0
+      },
+      "warrantyInformation": "Garantía de 5 años",
+      "shippingInformation": "Envío en 10 días",
+      "availabilityStatus": "Bajo Stock",
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Excelente para microbiología.",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "María Valdez",
+          "reviewerEmail": "maria.valdez@lab.dummyjson.com"
+        }
+      ],
+      "returnPolicy": "Política de devolución de 60 días",
+      "minimumOrderQuantity": 1,
+      "meta": {
+        "createdAt": "2024-05-23T08:56:21.618Z",
+        "updatedAt": "2024-05-23T08:56:21.618Z",
+        "barcode": "1230987890123",
+        "qrCode": "/"
+      },
+      "images": [
+        "/gsd.jpg"
+      ],
+      "thumbnail": "/gsd.jpg"
+    }
+  ]
+}
