@@ -6,7 +6,7 @@ import Layout from "@/components/layout/Layout";
 import { Toaster } from "react-hot-toast";
 
 export const metadata: Metadata = {
-  title: "Testlab company",
+  title: "Testlab company | Análisis o muestreo a tu medida",
   description: "El laboratorio mas grande del mundo",
 };
 
