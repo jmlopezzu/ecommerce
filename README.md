@@ -4,11 +4,6 @@
 To begin working on this project:
 
 1. **Clone the Repository:**  
-   Clone this repository to your local machine using the following command:
-
-   ```bash
-   https://github.com/noorjsdivs/shofy_yt.git
-   ```
    
 Install Dependencies:
 
@@ -35,6 +30,15 @@ Start the development server using the following command:
 npm run dev
    ```bash
       npm run dev
+```
+
+#### MUI ux
+   ```bash
+npm install --save @mui/material @mui/icons-material
+```
+
+   ```bash
+npm install @emotion/react @emotion/styled
 ```
 #### or
 pnpm dev

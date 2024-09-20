@@ -1,0 +1,75 @@
+.carousel-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Dejar espacio entre los botones y el carrusel */
+  width: 100%;
+  overflow: hidden;
+  padding: 10px 20px;
+  background-color: transparent;
+}
+
+.carousel-icons {
+  display: flex;
+  gap: 25px;
+  justify-content: flex-start;
+  overflow-x: scroll;
+  scroll-behavior: smooth;
+  padding: 10px 0;
+  flex-grow: 1;
+  max-width: 80vw;
+  scrollbar-width: none; /* Ocultar barra de scroll en Firefox */
+}
+
+.carousel-icons::-webkit-scrollbar {
+  display: none; /* Ocultar barra de scroll en Chrome, Safari y Edge */
+}
+
+.carousel-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: transform 0.3s ease, color 0.3s ease;
+  padding: 15px;
+}
+
+.carousel-item:hover {
+  transform: scale(1.08);
+}
+
+.carousel-item.active {
+  transform: scale(1.12);
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.carousel-item p {
+  margin-top: 8px;
+  font-size: 16px;
+  color: #333;
+}
+
+.carousel-item.active p {
+  color: #007bff;
+}
+
+.carousel-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.carousel-btn:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.carousel-btn svg {
+  font-size: 28px;
+  color: #007bff;
+}

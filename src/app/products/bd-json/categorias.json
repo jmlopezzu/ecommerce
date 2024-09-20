@@ -245,7 +245,88 @@
         },
         "images": ["/lab_construccion_materiales.jpg"],
         "thumbnail": "/lab_construccion_materiales.jpg"
-      }
+      },{
+        "id": 7,
+        "title": "Laboratorio de Calibración y Metrología",
+        "description": "Ofrecemos servicios de calibración de instrumentos y equipos, así como pruebas metrológicas para garantizar la precisión de las mediciones.",
+        "category": "calibración y metrología",
+        "price": 300.00,
+        "discountPercentage": 7.5,
+        "rating": 4.8,
+        "stock": 10,
+        "tags": ["calibración", "metrología", "precisión"],
+        "brand": "MetriLab",
+        "sku": "LABCAL100",
+        "weight": 1.5,
+        "dimensions": {
+          "width": 20.0,
+          "height": 30.0,
+          "depth": 15.0
+        },
+        "warrantyInformation": "Garantía de 3 años",
+        "shippingInformation": "Envío en 7 días",
+        "availabilityStatus": "Disponible",
+        "reviews": [
+          {
+            "rating": 5,
+            "comment": "Excelente servicio para garantizar la precisión de nuestros equipos.",
+            "date": "2024-06-15T10:30:21.618Z",
+            "reviewerName": "Laura Martínez",
+            "reviewerEmail": "laura.martinez@calibracionlab.com"
+          }
+        ],
+        "returnPolicy": "Política de devolución de 45 días",
+        "minimumOrderQuantity": 1,
+        "meta": {
+          "createdAt": "2024-06-15T10:30:21.618Z",
+          "updatedAt": "2024-06-15T10:30:21.618Z",
+          "barcode": "7777777777777",
+          "qrCode": "/"
+        },
+        "images": ["/met.png"],
+        "thumbnail": "/met.png"
+      },
+      {
+        "id": 8,
+        "title": "Laboratorio de I + D + i",
+        "description": "Investigación, desarrollo e innovación en el campo de los materiales de construcción. Pruebas avanzadas para asegurar calidad e innovación.",
+        "category": "investigación y desarrollo",
+        "price": 400.00,
+        "discountPercentage": 10.0,
+        "rating": 4.9,
+        "stock": 8,
+        "tags": ["innovación", "investigación", "desarrollo"],
+        "brand": "InnovaLab",
+        "sku": "LABIDI100",
+        "weight": 2.2,
+        "dimensions": {
+          "width": 22.0,
+          "height": 32.0,
+          "depth": 18.0
+        },
+        "warrantyInformation": "Garantía de 5 años",
+        "shippingInformation": "Envío en 10 días",
+        "availabilityStatus": "Bajo Stock",
+        "reviews": [
+          {
+            "rating": 5,
+            "comment": "Gran laboratorio, ideal para proyectos innovadores en construcción.",
+            "date": "2024-07-01T14:12:45.618Z",
+            "reviewerName": "Carlos Ramírez",
+            "reviewerEmail": "carlos.ramirez@idi.lab.com"
+          }
+        ],
+        "returnPolicy": "Política de devolución de 60 días",
+        "minimumOrderQuantity": 1,
+        "meta": {
+          "createdAt": "2024-07-01T14:12:45.618Z",
+          "updatedAt": "2024-07-01T14:12:45.618Z",
+          "barcode": "8888888888888",
+          "qrCode": "/"
+        },
+        "images": ["/id.png"],
+        "thumbnail": "/id.png"
+      }      
     ]
   }
   
