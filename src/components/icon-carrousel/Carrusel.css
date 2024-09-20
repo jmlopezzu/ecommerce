@@ -51,7 +51,7 @@
 }
 
 .carousel-item.active p {
-  color: #007bff;
+  color: #00a587;
 }
 
 .carousel-btn {
@@ -71,5 +71,5 @@
 
 .carousel-btn svg {
   font-size: 28px;
-  color: #007bff;
+  color: #00bb89;
 }
