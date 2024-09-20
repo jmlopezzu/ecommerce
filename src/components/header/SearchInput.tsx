@@ -58,7 +58,7 @@ const SearchInput = () => {
         <input
           type="text"
           placeholder="¿Análisis o muestreo de laboratorio que buscas?"
-          className="w-full h-10 pl-4 pr-12 outline-none border-2 border-themeColor rounded-full"
+          className="w-[400px] h-10 pl-4 pr-12 outline-none border-2 border-themeColor rounded-full"
           value={search}
           onChange={(e) => setSearch(e.target.value)}
           onFocus={() => setIsInputFocused(true)}
@@ -73,6 +73,8 @@ const SearchInput = () => {
           <RiSearchLine />
         </button>
       </div>
+
+      
 
       {/* Checkboxes */}
       <div className="flex flex-col space-y-2">
@@ -100,6 +102,13 @@ const SearchInput = () => {
           <label htmlFor="sin-muestreo">Sin muestreo</label>
         </div>
       </div>
+      {/* Botón de redirección */}
+      <a href="/otra-pagina">
+        <button className="relative w-30 h-15 bg-themeColor/80 flex items-center justify-center text-white rounded-full hover:bg-themeColor duration-200 border border-themeColor">
+          Busqueda avanzada
+        </button>
+      </a>
+  
 
       {/* Filtered Results Dropdown */}
       {isInputFocused && search && (
