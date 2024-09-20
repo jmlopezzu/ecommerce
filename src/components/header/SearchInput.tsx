@@ -103,7 +103,7 @@ const SearchInput = () => {
         </div>
       </div>
       {/* Botón de redirección */}
-      <a href="/otra-pagina">
+      <a href="/advanced-search">
         <button className="relative w-30 h-15 bg-themeColor/80 flex items-center justify-center text-white rounded-full hover:bg-themeColor duration-200 border border-themeColor">
           Busqueda avanzada
         </button>
