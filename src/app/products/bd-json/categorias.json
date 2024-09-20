@@ -1,0 +1,251 @@
+{
+    "categorias": [
+      {
+        "id": 1,
+        "title": "Laboratorios Clínicos",
+        "description": "Análisis médicos para diagnóstico y prevención.",
+        "category": "laboratorios",
+        "price": 200.00,
+        "discountPercentage": 5.0,
+        "rating": 4.5,
+        "stock": 50,
+        "tags": ["clínico", "análisis"],
+        "brand": "HealthLab",
+        "sku": "LABCLIN100",
+        "weight": 1.0,
+        "dimensions": {
+          "width": 10.0,
+          "height": 20.0,
+          "depth": 10.0
+        },
+        "warrantyInformation": "Garantía de 2 años",
+        "shippingInformation": "Envío en 3 días",
+        "availabilityStatus": "En Stock",
+        "reviews": [
+          {
+            "rating": 5,
+            "comment": "Servicio excelente y resultados rápidos.",
+            "date": "2024-05-23T08:56:21.618Z",
+            "reviewerName": "Carlos Sánchez",
+            "reviewerEmail": "carlos.sanchez@lab.dummyjson.com"
+          }
+        ],
+        "returnPolicy": "Política de devolución de 30 días",
+        "minimumOrderQuantity": 1,
+        "meta": {
+          "createdAt": "2024-05-23T08:56:21.618Z",
+          "updatedAt": "2024-05-23T08:56:21.618Z",
+          "barcode": "1111111111111",
+          "qrCode": "/"
+        },
+        "images": ["/lab_clinicos.jpg"],
+        "thumbnail": "/lab_clinicos.jpg"
+      },
+      {
+        "id": 2,
+        "title": "Laboratorios de Calidad de la Industria",
+        "description": "Control de calidad en procesos industriales.",
+        "category": "laboratorios",
+        "price": 200.00,
+        "discountPercentage": 5.0,
+        "rating": 4.3,
+        "stock": 30,
+        "tags": ["industria", "calidad"],
+        "brand": "IndustryLab",
+        "sku": "LABIND100",
+        "weight": 2.0,
+        "dimensions": {
+          "width": 15.0,
+          "height": 25.0,
+          "depth": 15.0
+        },
+        "warrantyInformation": "Garantía de 1 año",
+        "shippingInformation": "Envío en 5 días",
+        "availabilityStatus": "En Stock",
+        "reviews": [
+          {
+            "rating": 4,
+            "comment": "Servicio adecuado pero con tiempos de espera algo largos.",
+            "date": "2024-05-23T08:56:21.618Z",
+            "reviewerName": "Marta Gómez",
+            "reviewerEmail": "marta.gomez@lab.dummyjson.com"
+          }
+        ],
+        "returnPolicy": "Política de devolución de 30 días",
+        "minimumOrderQuantity": 1,
+        "meta": {
+          "createdAt": "2024-05-23T08:56:21.618Z",
+          "updatedAt": "2024-05-23T08:56:21.618Z",
+          "barcode": "2222222222222",
+          "qrCode": "/"
+        },
+        "images": ["/lab_calidad_industria.jpg"],
+        "thumbnail": "/lab_calidad_industria.jpg"
+      },
+      {
+        "id": 3,
+        "title": "Laboratorio de Alimentos",
+        "description": "Análisis de seguridad y calidad alimentaria.",
+        "category": "laboratorios",
+        "price": 120.00,
+        "discountPercentage": 8.0,
+        "rating": 4.6,
+        "stock": 40,
+        "tags": ["alimentos", "seguridad"],
+        "brand": "FoodLab",
+        "sku": "LABALIM100",
+        "weight": 1.5,
+        "dimensions": {
+          "width": 12.0,
+          "height": 22.0,
+          "depth": 12.0
+        },
+        "warrantyInformation": "Garantía de 1 año",
+        "shippingInformation": "Envío en 4 días",
+        "availabilityStatus": "En Stock",
+        "reviews": [
+          {
+            "rating": 5,
+            "comment": "Excelente para asegurar la calidad alimentaria.",
+            "date": "2024-05-23T08:56:21.618Z",
+            "reviewerName": "Ana Martínez",
+            "reviewerEmail": "ana.martinez@lab.dummyjson.com"
+          }
+        ],
+        "returnPolicy": "Política de devolución de 30 días",
+        "minimumOrderQuantity": 1,
+        "meta": {
+          "createdAt": "2024-05-23T08:56:21.618Z",
+          "updatedAt": "2024-05-23T08:56:21.618Z",
+          "barcode": "3333333333333",
+          "qrCode": "/"
+        },
+        "images": ["/lab_alimentos.jpg"],
+        "thumbnail": "/lab_alimentos.jpg"
+      },
+      {
+        "id": 4,
+        "title": "Laboratorios Ambientales",
+        "description": "Monitoreo y análisis de muestras ambientales.",
+        "category": "laboratorios",
+        "price": 180.00,
+        "discountPercentage": 12.0,
+        "rating": 4.4,
+        "stock": 25,
+        "tags": ["ambiental", "monitoreo"],
+        "brand": "EcoLab",
+        "sku": "LABAMBI100",
+        "weight": 2.5,
+        "dimensions": {
+          "width": 16.0,
+          "height": 26.0,
+          "depth": 16.0
+        },
+        "warrantyInformation": "Garantía de 2 años",
+        "shippingInformation": "Envío en 6 días",
+        "availabilityStatus": "Bajo Stock",
+        "reviews": [
+          {
+            "rating": 4,
+            "comment": "Monitoreo eficiente pero algo caro.",
+            "date": "2024-05-23T08:56:21.618Z",
+            "reviewerName": "Pedro Ramírez",
+            "reviewerEmail": "pedro.ramirez@lab.dummyjson.com"
+          }
+        ],
+        "returnPolicy": "Política de devolución de 30 días",
+        "minimumOrderQuantity": 1,
+        "meta": {
+          "createdAt": "2024-05-23T08:56:21.618Z",
+          "updatedAt": "2024-05-23T08:56:21.618Z",
+          "barcode": "4444444444444",
+          "qrCode": "/"
+        },
+        "images": ["/lab_ambientales.jpg"],
+        "thumbnail": "/lab_ambientales.jpg"
+      },
+      {
+        "id": 5,
+        "title": "Laboratorios Químicos y Farmacéuticos",
+        "description": "Desarrollo y análisis de productos químicos y farmacéuticos.",
+        "category": "laboratorios",
+        "price": 300.00,
+        "discountPercentage": 7.0,
+        "rating": 4.8,
+        "stock": 10,
+        "tags": ["químico", "farmacéutico"],
+        "brand": "PharmaLab",
+        "sku": "LABQUIMFAR100",
+        "weight": 3.0,
+        "dimensions": {
+          "width": 20.0,
+          "height": 30.0,
+          "depth": 20.0
+        },
+        "warrantyInformation": "Garantía de 3 años",
+        "shippingInformation": "Envío en 7 días",
+        "availabilityStatus": "Bajo Stock",
+        "reviews": [
+          {
+            "rating": 5,
+            "comment": "Equipos de alta calidad y resultados precisos.",
+            "date": "2024-05-23T08:56:21.618Z",
+            "reviewerName": "Isabel Torres",
+            "reviewerEmail": "isabel.torres@lab.dummyjson.com"
+          }
+        ],
+        "returnPolicy": "Política de devolución de 30 días",
+        "minimumOrderQuantity": 1,
+        "meta": {
+          "createdAt": "2024-05-23T08:56:21.618Z",
+          "updatedAt": "2024-05-23T08:56:21.618Z",
+          "barcode": "5555555555555",
+          "qrCode": "/"
+        },
+        "images": ["/lab_quimicos_farmaceuticos.jpg"],
+        "thumbnail": "/lab_quimicos_farmaceuticos.jpg"
+      },
+      {
+        "id": 6,
+        "title": "Laboratorio de Construcción y Materiales",
+        "description": "Evaluación de la calidad de materiales de construcción.",
+        "category": "laboratorios",
+        "price": 250.00,
+        "discountPercentage": 9.0,
+        "rating": 4.7,
+        "stock": 15,
+        "tags": ["construcción", "materiales"],
+        "brand": "BuildLab",
+        "sku": "LABCONSTR100",
+        "weight": 2.0,
+        "dimensions": {
+          "width": 18.0,
+          "height": 28.0,
+          "depth": 18.0
+        },
+        "warrantyInformation": "Garantía de 2 años",
+        "shippingInformation": "Envío en 5 días",
+        "availabilityStatus": "Bajo Stock",
+        "reviews": [
+          {
+            "rating": 5,
+            "comment": "Esenciales para asegurar la resistencia de materiales.",
+            "date": "2024-05-23T08:56:21.618Z",
+            "reviewerName": "Raúl Gómez",
+            "reviewerEmail": "raul.gomez@lab.dummyjson.com"
+          }
+        ],
+        "returnPolicy": "Política de devolución de 30 días",
+        "minimumOrderQuantity": 1,
+        "meta": {
+          "createdAt": "2024-05-23T08:56:21.618Z",
+          "updatedAt": "2024-05-23T08:56:21.618Z",
+          "barcode": "6666666666666",
+          "qrCode": "/"
+        },
+        "images": ["/lab_construccion_materiales.jpg"],
+        "thumbnail": "/lab_construccion_materiales.jpg"
+      }
+    ]
+  }
+  

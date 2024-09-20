@@ -6,12 +6,14 @@ import ProductCard from "./ProductCard";
 
 interface Props {
   product: {
-    laboratorios: ProductType[];
+    laboratorios?: ProductType[];  // Opción para laboratorios
+    categorias?: ProductType[];    // Opción para categorías
   };
 }
 
 const ProductList = ({ product }: Props) => {
-  const productsArray = product?.laboratorios;
+  // Comprobar si existen laboratorios o categorías
+  const productsArray = product?.laboratorios || product?.categorias;
 
   return (
     <Container className="py-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">

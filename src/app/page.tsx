@@ -1,13 +1,13 @@
 import Banner from "@/components/pages/home/Banner";
 import ProductList from "@/components/ProductList";
-import productsData from "./products/bd-json/labs.json";
+import productsData from "./products/bd-json/categorias.json";
 
 export default async function Home() {
-  const { laboratorios } = productsData;
+  const { categorias } = productsData;
   return (
     <main>
       <Banner />
-      <ProductList product={{laboratorios}} />
+      <ProductList product={{categorias}} />
     </main>
   );
 }
