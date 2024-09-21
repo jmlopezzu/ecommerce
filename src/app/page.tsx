@@ -7,6 +7,7 @@ export default async function Home() {
   const { categorias } = productsData;
   return (
     <main>     
+      <Carrusel/>
       <CategoryList product={{categorias}} />
       <Banner />
     </main>
