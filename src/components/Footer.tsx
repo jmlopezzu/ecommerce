@@ -16,11 +16,12 @@ const Footer = () => {
       <Container className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
         <div className="flex flex-col items-start gap-y-5">
           <Link href={"/"}>
-            <Image src={logo} alt="logo" />
+            <Image src={logo} style={{width:'150px', margin:'20px'}} alt="logo" />
           </Link>
           <p>
-            El laboratorio mas grande del mundo, a tu medida.
+            El laboratorio mas grande del mundo,
           </p>
+          <p> a tu medida.</p>
           <SocialLink />
         </div>
         <div>
