@@ -16,6 +16,9 @@ const SearchInput = () => {
   const [isConMuestreo, setIsConMuestreo] = useState(false);
   const [isSinMuestreo, setIsSinMuestreo] = useState(false);
 
+  // Estado para controlar la apertura del modal
+  const [isModalOpen, setIsModalOpen] = useState(false);
+
   useEffect(() => {
     setProducts(productsData.laboratorios || []); // Assuming productsData has a products field
   }, []);
@@ -51,6 +54,16 @@ const SearchInput = () => {
     }
   };
 
+  // Función para abrir el modal
+  const openModal = () => {
+    setIsModalOpen(true);
+  };
+
+  // Función para cerrar el modal
+  const closeModal = () => {
+    setIsModalOpen(false);
+  };
+
   return (
     <div ref={searchContainerRef} className="flex items-center space-x-4 relative">
       {/* Input Field */}
@@ -73,8 +86,6 @@ const SearchInput = () => {
           <RiSearchLine />
         </button>
       </div>
-
-      
 
       {/* Checkboxes */}
       <div className="flex flex-col space-y-2">
@@ -102,13 +113,14 @@ const SearchInput = () => {
           <label htmlFor="sin-muestreo">Sin muestreo</label>
         </div>
       </div>
-      {/* Botón de redirección */}
-      <a href="/advanced-search">
-        <button className="relative w-30 h-15 bg-themeColor/80 flex items-center justify-center text-white rounded-full hover:bg-themeColor duration-200 border border-themeColor">
-          Busqueda avanzada
-        </button>
-      </a>
-  
+
+      {/* Botón para abrir el modal */}
+      <button
+        onClick={openModal} // Llama a la función openModal
+        className="relative w-30 h-15 px-4 bg-themeColor/80 flex items-center justify-center text-white rounded-full hover:bg-themeColor duration-200 border border-themeColor"
+      >
+        Búsqueda avanzada
+      </button>
 
       {/* Filtered Results Dropdown */}
       {isInputFocused && search && (
@@ -137,6 +149,110 @@ const SearchInput = () => {
               </p>
             </div>
           )}
+        </div>
+      )}
+
+      {/* Modal */}
+      {isModalOpen && (
+        <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 z-50">
+          <div className="bg-white p-6 rounded-lg shadow-lg max-w-md w-full relative">
+            {/* Botón para cerrar el modal */}
+            <button
+              onClick={closeModal} // Llama a la función closeModal
+              className="absolute top-2 right-2 text-gray-500 hover:text-gray-700"
+            >
+              ✖️
+            </button>
+
+            <form onSubmit={(e) => e.preventDefault()} className="p-4">
+              <h2 className="text-xl font-bold mb-4">Búsqueda Avanzada</h2>
+
+              {/* Ejemplo de campos del formulario */}
+              <div className="mb-4">
+                <label htmlFor="keyword" className="block font-medium">
+                  Palabra Clave:
+                </label>
+                <input
+                  type="text"
+                  id="keyword"
+                  name="keyword"
+                  className="border border-gray-300 p-2 w-full"
+                />
+              </div>
+               {/* Código Método (Estándar) */}
+               <div className="mb-4">
+                <label htmlFor="methodCode" className="block font-medium">
+                  Código Método (Estándar):
+                </label>
+                <input
+                  type="text"
+                  id="methodCode"
+                  name="methodCode"
+                  className="border border-gray-300 p-2 w-full"
+                />
+              </div>
+
+              {/* Matriz */}
+              <div className="mb-4">
+                <label htmlFor="matrix" className="block font-medium">
+                  Matriz:
+                </label>
+                <input
+                  type="text"
+                  id="matrix"
+                  name="matrix"
+                  className="border border-gray-300 p-2 w-full"
+                />
+              </div>
+
+              {/* Ciudad del Servicio */}
+              <div className="mb-4">
+                <label htmlFor="city" className="block font-medium">
+                  Ciudad del Servicio:
+                </label>
+                <input
+                  type="text"
+                  id="city"
+                  name="city"
+                  className="border border-gray-300 p-2 w-full"
+                />
+              </div>
+
+              {/* Ente Acreditador */}
+              <div className="mb-4">
+                <label htmlFor="accreditationBody" className="block font-medium">
+                  Ente Acreditador:
+                </label>
+                <input
+                  type="text"
+                  id="accreditationBody"
+                  name="accreditationBody"
+                  className="border border-gray-300 p-2 w-full"
+                />
+              </div>
+
+              {/* Variable */}
+              <div className="mb-4">
+                <label htmlFor="variable" className="block font-medium">
+                  Variable:
+                </label>
+                <input
+                  type="text"
+                  id="variable"
+                  name="variable"
+                  className="border border-gray-300 p-2 w-full"
+                />
+              </div>
+
+              {/* Botón de búsqueda dentro del modal */}
+              <button
+                type="submit"
+                className="bg-themeColor text-white px-6 py-2 rounded-full hover:bg-opacity-80 w-full"
+              >
+                Buscar 🔍
+              </button>
+            </form>
+          </div>
         </div>
       )}
     </div>
