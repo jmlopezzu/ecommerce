@@ -67,8 +67,7 @@ const MiddleHeader = () => {
                 <LiaUser />
               </div>
               <div>
-                <p className="text-xs">Hola, bienvenido</p>
-                <p className="text-sm">Iniciar Sesión / Registrar</p>
+                <p className="text-sm">Pon tu Laboratorio en Testlab</p>
               </div>
             </div>
           )}
