@@ -185,7 +185,85 @@ const SearchInput = () => {
 
             <form onSubmit={(e) => e.preventDefault()} className="p-4">
               <h2 className="text-xl font-bold mb-4">Búsqueda Avanzada</h2>
-              {/* Añade tus campos del formulario aquí */}
+
+              {/* Ejemplo de campos del formulario */}
+              <div className="mb-4">
+                <label htmlFor="keyword" className="block font-medium">
+                  Palabra Clave:
+                </label>
+                <input
+                  type="text"
+                  id="keyword"
+                  name="keyword"
+                  className="border border-gray-300 p-2 w-full"
+                />
+              </div>
+              {/* Código Método (Estándar) */}
+              <div className="mb-4">
+                <label htmlFor="methodCode" className="block font-medium">
+                  Código Método (Estándar):
+                </label>
+                <input
+                  type="text"
+                  id="methodCode"
+                  name="methodCode"
+                  className="border border-gray-300 p-2 w-full"
+                />
+              </div>
+
+              {/* Matriz */}
+              <div className="mb-4">
+                <label htmlFor="matrix" className="block font-medium">
+                  Matriz:
+                </label>
+                <input
+                  type="text"
+                  id="matrix"
+                  name="matrix"
+                  className="border border-gray-300 p-2 w-full"
+                />
+              </div>
+
+              {/* Ciudad del Servicio */}
+              <div className="mb-4">
+                <label htmlFor="city" className="block font-medium">
+                  Ciudad del Servicio:
+                </label>
+                <input
+                  type="text"
+                  id="city"
+                  name="city"
+                  className="border border-gray-300 p-2 w-full"
+                />
+              </div>
+
+              {/* Ente Acreditador */}
+              <div className="mb-4">
+                <label htmlFor="accreditationBody" className="block font-medium">
+                  Ente Acreditador:
+                </label>
+                <input
+                  type="text"
+                  id="accreditationBody"
+                  name="accreditationBody"
+                  className="border border-gray-300 p-2 w-full"
+                />
+              </div>
+
+              {/* Variable */}
+              <div className="mb-4">
+                <label htmlFor="variable" className="block font-medium">
+                  Variable:
+                </label>
+                <input
+                  type="text"
+                  id="variable"
+                  name="variable"
+                  className="border border-gray-300 p-2 w-full"
+                />
+              </div>
+
+              {/* Botón de búsqueda dentro del modal */}
               <button
                 type="submit"
                 className="bg-themeColor text-white px-6 py-2 rounded-full hover:bg-opacity-80 w-full"
