@@ -269,6 +269,32 @@ const PrincipalForm: React.FC = () => {
                 onChange={handleInputChange}
                 className="border border-gray-300 p-2 w-full rounded"
               />
+              
+              <div className="terms-custom mt-6">
+              <h2>Operador de muestreo</h2>
+                <input
+                  type="checkbox"
+                  id="terminos"
+                  name="terminos"
+                  checked={formData.terminos}
+                  onChange={handleInputChange}
+                  required
+                  className="mr-2"
+                />
+                <label htmlFor="terminos">Si</label>
+              </div>
+              <div className="terms-custom mt-6">
+                <input
+                  type="checkbox"
+                  id="terminos"
+                  name="terminos"
+                  checked={formData.terminos}
+                  onChange={handleInputChange}
+                  required
+                  className="mr-2"
+                />
+                <label htmlFor="terminos">No</label>
+              </div>
             </section>
           </div>
         </div>

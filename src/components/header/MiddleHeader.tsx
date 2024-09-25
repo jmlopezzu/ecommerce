@@ -63,11 +63,8 @@ const MiddleHeader = () => {
               onClick={() => signIn()}
               className="flex items-center gap-2 cursor-pointer"
             >
-              <div className="border-2 border-gray-700 p-1.5 rounded-full text-xl">
-                <LiaUser />
-              </div>
               <div>
-                <p className="text-sm">Pon tu Laboratorio en Testlab</p>
+                <p className="text-sm"> Registra tu Laboratorio en Testlab</p>
               </div>
             </div>
           )}
@@ -85,7 +82,11 @@ const MiddleHeader = () => {
               {cart?.length > 0 ? cart?.length : "0"}
             </span>
           </Link>
+          <div className="border-2 border-gray-700 p-1.5 rounded-full text-xl">
+                <LiaUser />
+              </div>
         </div>
+        
         <div className="text-3xl md:hidden text-gray-500 hover:text-themeColor duration-200 cursor-pointer">
           <RiMenu3Fill />
         </div>
