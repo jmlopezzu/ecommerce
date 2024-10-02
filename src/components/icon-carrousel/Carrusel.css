@@ -1,22 +1,26 @@
 .carousel-container {
   display: flex;
   align-items: center;
-  justify-content: space-between; /* Dejar espacio entre los botones y el carrusel */
-  width: 100%;
-  overflow: hidden;
+  justify-content: center; /* Centra el contenido en el eje horizontal */
+  width: 80%; /* Ancho del contenedor */
+  max-width: 1200px; /* Máximo ancho para evitar que crezca demasiado en pantallas grandes */
+  margin: 0 auto; /* Centra el contenedor en la pantalla */
+  overflow: hidden; /* Oculta el desbordamiento */
   padding: 10px 20px;
   background-color: transparent;
 }
 
+/* Otros estilos permanecen iguales */
+
 .carousel-icons {
   display: flex;
   gap: 25px;
-  justify-content: flex-start;
-  overflow-x: scroll;
-  scroll-behavior: smooth;
+  justify-content: flex-start; /* Alinea los íconos en la parte izquierda */
+  overflow-x: scroll; /* Permite el desplazamiento horizontal */
+  scroll-behavior: smooth; /* Suaviza el desplazamiento */
   padding: 10px 0;
-  flex-grow: 1;
-  max-width: 80vw;
+  flex-grow: 1; /* Permite que los íconos crezcan y ocupen el espacio disponible */
+  max-width: 80vw; /* Máximo ancho para los íconos */
   scrollbar-width: none; /* Ocultar barra de scroll en Firefox */
 }
 
@@ -24,6 +28,7 @@
   display: none; /* Ocultar barra de scroll en Chrome, Safari y Edge */
 }
 
+/* Estilos para los elementos del carrusel */
 .carousel-item {
   display: flex;
   flex-direction: column;

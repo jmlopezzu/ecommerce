@@ -2,7 +2,7 @@
 import Container from "../Container";
 import Image from "next/image";
 import { useEffect } from "react";
-import { LiaUser } from "react-icons/lia";
+// import { LiaUser } from "react-icons/lia";
 import { MdFavoriteBorder } from "react-icons/md";
 import { BiShoppingBag } from "react-icons/bi";
 import Link from "next/link";
@@ -13,6 +13,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { addUser, removeUser } from "@/redux/shofySlice";
 import { StateType } from "../../../type";
 import SearchInput from "./SearchInput";
+import UserIcon from "./UserIcon";
 
 const MiddleHeader = () => {
   const dispatch = useDispatch();
@@ -59,18 +60,11 @@ const MiddleHeader = () => {
               </div>
             </Link>
           ) : (
-            <div
-              onClick={() => signIn()}
-              className="flex items-center gap-2 cursor-pointer"
-            >
-              <div className="border-2 border-gray-700 p-1.5 rounded-full text-xl">
-                <LiaUser />
-              </div>
               <div>
-                <p className="text-xs">Hola, bienvenido</p>
-                <p className="text-sm">Iniciar Sesión / Registrar</p>
+                <Link href={"/register"} className="text-sm">
+                <p className="text-sm"> Registra tu Laboratorio en Testlab</p>
+                </Link>
               </div>
-            </div>
           )}
           {/* Favorite Icon */}
           <Link href={"/favorite"} className="text-2xl relative">
@@ -86,7 +80,17 @@ const MiddleHeader = () => {
               {cart?.length > 0 ? cart?.length : "0"}
             </span>
           </Link>
+          {/* <div
+              onClick={() => signIn()}
+              className="flex items-center gap-2 cursor-pointer"
+            > */}
+          {/* <div className="border-2 border-gray-700 p-1.5 rounded-full text-xl">
+                <LiaUser />
+              </div> */}
+              <UserIcon/>
+          {/* </div> */}
         </div>
+        
         <div className="text-3xl md:hidden text-gray-500 hover:text-themeColor duration-200 cursor-pointer">
           <RiMenu3Fill />
         </div>
