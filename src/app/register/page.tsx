@@ -1,5 +1,6 @@
 "use client";
 
+import SimpleHeader from '@/components/header/SimpleHeader';
 import React, { useState, ChangeEvent, FormEvent } from 'react';
 
 interface FormData {
@@ -81,6 +82,7 @@ const PrincipalForm: React.FC = () => {
 
   return (
     <div className="container mx-auto p-6">
+      <SimpleHeader/>
       <header className="mb-6">
         <h2 className="text-2xl font-bold">Formulario de registro de laboratorios</h2>
         <h4 className="text-gray-600">Bienvenido al Laboratorio N°1 más grande del mundo</h4>

@@ -1,0 +1,31 @@
+.bienvenida-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Se asegura de que ocupe toda la altura de la pantalla */
+  background-color: #f7f7f7;
+  padding: 20px; /* Añade espacio alrededor del contenido */
+}
+
+.bienvenida-card {
+  background-color: white;
+  padding: 40px; /* Aumenta el padding para agrandar la tarjeta */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  max-width: 700px; /* Aumenta el ancho máximo de la tarjeta */
+  font-size: 18px; /* Aumenta el tamaño del texto */
+}
+
+.bienvenida-card h1 {
+  font-size: 32px; /* Aumenta el tamaño de la cabecera */
+  font-weight: bold;
+  color: #000;
+  margin-bottom: 20px;
+}
+
+.bienvenida-card p {
+  font-size: 18px; /* Aumenta el tamaño del texto del párrafo */
+  color: #555;
+  margin-bottom: 15px;
+}
