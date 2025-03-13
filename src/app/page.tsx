@@ -10,8 +10,8 @@ export default async function Home() {
     <main> 
       <Header />   
       <Carrusel/>
-      <CategoryList product={{categorias}} />
       <Banner />
+      <CategoryList product={{categorias}} />
     </main>
   );
 }
