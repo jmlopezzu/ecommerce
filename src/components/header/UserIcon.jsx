@@ -43,19 +43,19 @@ const UserIcon = () => {
       {isModalOpen && (
         <div className="fixed inset-0 flex items-start justify-end bg-black bg-opacity-50 z-50">
           <div className="bg-white p-6 rounded-lg shadow-lg text-center mt-4 mr-4">
-            <h2 className="text-xl mb-4">¿Eres laboratorio o cliente?</h2>
+            <h2 className="text-xl mb-4">¿Eres laboratorio o buscas un servicio de analisis?</h2>
             <div className="flex gap-4 justify-center">
               <button
                 className="bg-themeColor text-white py-2 px-4 rounded-full hover:bg-blue-600"
                 onClick={handleLaboratoryLogin}
               >
-                Laboratorio
+               Soy un Laboratorio
               </button>
               <button
                 className="bg-themeColor text-white py-2 px-4 rounded-full hover:bg-green-600"
                 onClick={handleClientLogin}
               >
-                Cliente
+                Servicio de analisis
               </button>
             </div>
             <button
